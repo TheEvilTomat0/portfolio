@@ -1,6 +1,6 @@
 <template>
   <navbar/>
-  <homeContainer class="-z-10"/>
+  <homeContainer/>
 </template>
 
 <script setup>

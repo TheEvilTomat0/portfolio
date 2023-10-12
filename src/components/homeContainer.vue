@@ -19,7 +19,6 @@ export default defineComponent({
             constrain: 20,
             mouseOverContainer:{},
             secondLayer:{},
-            
         }
     },
     mounted() {
