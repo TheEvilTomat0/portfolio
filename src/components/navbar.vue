@@ -14,10 +14,12 @@
         </div>
         <div class="z-10 top-0 bottom-0 left-[40%] absolute w-[60%] bg-slate-500 transition-transform duration-500 flex flex-col justify-center" :class="{ 'translate-x-full': !menuOpen }">
           <ul class="list-none text-left ml-20 space-y-5">
-              <li><a href="#" class="relative pb-4 text-6xl font-bold text-white w-fit block after:block after:content-[''] after:absolute after:rounded-xl after:h-[6px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Link</a></li>
-              <li><a href="#" class="relative pb-4 text-6xl font-bold text-white w-fit block after:block after:content-[''] after:absolute after:rounded-xl after:h-[6px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Link</a></li>
-              <li><a href="#" class="relative pb-4 text-6xl font-bold text-white w-fit block after:block after:content-[''] after:absolute after:rounded-xl after:h-[6px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Link</a></li>
-              <li><a href="#" class="relative pb-4 text-6xl font-bold text-white w-fit block after:block after:content-[''] after:absolute after:rounded-xl after:h-[6px] after:bg-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">Link</a></li>
+              <li><a href="#" class="nav-link">Interactive media</a></li>
+              <li><a href="#" class="nav-link">Development</a></li>
+              <li><a href="#" class="nav-link">Design</a></li>
+              <li><a href="#" class="nav-link">Research</a></li>
+              <li><a href="#" class="nav-link">Communication</a></li>
+              <li><a href="#" class="nav-link">Professional identity</a></li>
           </ul>
         </div>
       </aside>
