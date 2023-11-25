@@ -1,0 +1,57 @@
+{
+    "navigation": [
+        {
+            "name": "home",
+            "link": "/",
+            "title":"Back to base"
+        },
+        {
+            "name": "media",
+            "link": "/interactive-media",
+            "title":"Interactive media"
+        },
+        {
+            "name": "development",
+            "link": "/development",
+            "title":"Development"
+        },
+        {
+            "name": "design",
+            "link": "/design",
+            "title":"Design"
+        },
+        {
+            "name": "research",
+            "link": "/research",
+            "title":"Research"
+        },
+        {
+            "name": "communication",
+            "link": "/communication",
+            "title":"Communication"
+        },
+        {
+            "name": "identity",
+            "link": "/professional-identity",
+            "title":"Professional identity"
+        }
+
+    ],
+
+    "design": {
+        "dailyui": [
+            {
+                "name": "DailyUI 001",
+                "prompt": "Sign up",
+                "img": "/public/img/dailyui/dailyui001.png",
+                "description": "Create a sign up page, modal, form, or app screen related to signing up for something. It could be for a volunteer event, contest registration, a giveaway, or anything you can image."
+            },
+            {
+                "name": "DailyUI 002",
+                "prompt": "Credit Card Checkout",
+                "img": "/public/img/dailyui/dailyui002.png",
+                "description": "Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc."
+            }
+        ]
+    }
+}

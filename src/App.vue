@@ -1,9 +1,17 @@
-<template>
-  <navbar/>
-  <homeContainer/>
+<template>    
+    <navbar :page="this.$route.name"/>
+    <router-view></router-view>
 </template>
 
-<script setup>
+<script>
   import navbar from './components/navbar.vue'
-  import homeContainer from './components/homeContainer.vue'
+  export default {
+    name: "App",
+    components: {
+      navbar
+    },
+    mounted(){
+      
+    }
+  };
 </script>

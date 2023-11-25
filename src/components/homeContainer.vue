@@ -44,7 +44,6 @@ export default defineComponent({
         },
 
         onMouseMove(e) {
-            console.log(e);
             let xy = [e.clientX, e.clientY];
             let position = xy.concat([
                 this.secondLayer1, 
