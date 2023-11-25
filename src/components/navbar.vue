@@ -25,7 +25,7 @@
         </div>
         <div class="z-10 top-0 bottom-0 left-[40%] absolute w-[60%] bg-slate-500 transition-transform duration-500 flex flex-col justify-center" :class="{ 'translate-x-full': !menuOpen }">
           <ul class="list-none text-left ml-20 space-y-5">
-            <li v-for="item in menuItems" :key="item">
+            <li v-for="(item, index) in menuItems" :key="index">
               <a :href="item.link" class="nav-link">{{ item.title }}</a>
             </li>
           </ul>
