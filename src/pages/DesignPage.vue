@@ -8,6 +8,7 @@
 <script>
 import contentBlock from '../components/contentBlock.vue';
 import content from '../../public/content.json'
+import Modal from '../components/modal.vue';
 
 export default {
   data () {
@@ -16,7 +17,7 @@ export default {
     }
   },
 
-  components: { contentBlock },
+  components: { contentBlock, Modal },
 
 }
 </script>
