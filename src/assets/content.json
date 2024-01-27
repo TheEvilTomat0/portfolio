@@ -91,13 +91,13 @@
         },
         {
             "title": "Inspiratie",
-            "subtitle": "",
+            "subtitle": "Professional Identity",
             "img": "",
-            "description": "",
+            "description": "Wie ben ik? Zoek naar inspirerende portfolio's en analyseer welke identiteiten je vindt.",
             "tags": ["research", "professional identity"],
-            "links": [],
-            "info": "",
-            "reflection": ""
+            "links": ["https://portfolio.codeonmedia.nl/inspiratie.pdf"],
+            "info": "Tijdens deze opdracht ben ik opzoek gegaan naar websites die ik aantrekkelijk vind. Hier heb ik een pdf van gemaakt en erbij geschreven waarom ik ze mooi vind en waarom niet.",
+            "reflection": "Ik kwam erachter dat het soms best lastig kan zijn om uit te leggen waarom je een website mooi vind. Verder vond ik het leuk om veel verschillende websites te bekijken en te analyseren."
         }
     ]
 }

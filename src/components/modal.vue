@@ -39,6 +39,7 @@
 </template>
 
 <script>
+import inspiratie from '../assets/img/Inspiratie.pdf';
 export default {
     data () {
         return {
