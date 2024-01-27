@@ -7,17 +7,27 @@
 
 <script>
 import contentBlock from '../components/contentBlock.vue';
-import content from '../../public/content.json'
+import content from '../assets/content.json';
 import Modal from '../components/modal.vue';
 
 export default {
   data () {
     return {
-        content: content.design.dailyui
+      content: {}
     }
   },
 
   components: { contentBlock, Modal },
 
+  methods: {
+    getContent(){
+      const filteredContent = content.content.filter(item => item.tags.includes('design'));      
+      this.content = filteredContent;
+    }
+  },
+
+  mounted(){
+    this.getContent();
+  }
 }
 </script>

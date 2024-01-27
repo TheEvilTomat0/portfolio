@@ -18,15 +18,11 @@
       </div>
 
       <aside> 
-        <div class="z-10 top-0 bottom-0 left-0 absolute w-[40%] bg-slate-700 transition-transform duration-500 flex flex-col justify-center items-center p-5 text-white" :class="{ '-translate-y-full': !menuOpen }">
-          <h3 class="text-6xl font-bold">Portfolio</h3>
-          <h3 class="text-6xl break-normal mb-7">Leon Schoonhoven</h3>
-          <img src="/public/img/leon.jpg" class="object-contain w-auto h-80 rounded-lg">
-        </div>
-        <div class="z-10 top-0 bottom-0 left-[40%] absolute w-[60%] bg-slate-500 transition-transform duration-500 flex flex-col justify-center" :class="{ 'translate-x-full': !menuOpen }">
+        <div class="z-10 top-0 bottom-0 left-0 absolute w-full bg-slate-700 transition-transform duration-500 flex flex-col justify-center items-center p-5 text-white" :class="{ '-translate-y-full': !menuOpen }">
           <ul class="list-none text-left ml-20 space-y-5">
             <li v-for="(item, index) in menuItems" :key="index">
-              <a :href="item.link" class="nav-link">{{ item.title }}</a>
+              <!-- <a :href="item.link" class="nav-link">{{ item.title }}</a> -->
+              <router-link :to="item.link" @click="menuOpen = false" class="nav-link">{{ item.title }}</router-link>
             </li>
           </ul>
         </div>
@@ -36,7 +32,7 @@
 
 <script>
 import { defineComponent } from 'vue';
-import json from '../../public/content.json';
+import json from '../assets/content.json';
 
 export default defineComponent({
     props: {

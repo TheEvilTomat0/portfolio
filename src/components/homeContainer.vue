@@ -1,13 +1,14 @@
 <template>
-    <div id="mouseLayer" v-on:mousemove="onMouseMove" class="w-screen h-screen bg-[url('/public/svg/background.jpg')] object-cover bg-no-repeat">
-        <img id="secondLayer1" src="/public/svg/comets.svg" class="object-contain absolute top-24 left-1/4 w-auto h-24">
-        <img id="secondLayer2" src="/public/svg/moon_rocks.svg" class="object-contain w-auto bottom-10 left-1/3 absolute h-64">
-        <img id="secondLayer3" src="/public/svg/planet.svg" class="object-contain w-auto h-80 absolute left-24 top-1/4">
-        <img id="secondLayer4" src="/public/svg/planet2.svg" class="object-contain w-auto h-64 right-56 top-1/4 absolute">
-        <img id="secondLayer5" src="/public/svg/planet3.svg" class="object-contain w-auto h-56 bottom-10 right-7 absolute">
-        <img id="secondLayer6" src="/public/svg/rocket.svg" class="object-contain w-auto h-24 left-1/3 top-1/3 absolute">
-        <img id="secondLayer7" src="/public/svg/sat.svg" class="object-contain w-auto h-10 right-44 top-28 absolute">
-        <img id="secondLayer8" src="/public/svg/sat2.svg" class="object-contain w-auto h-20 left-24 bottom-32 absolute">     
+    <div id="mouseLayer" v-on:mousemove="onMouseMove" class="w-screen h-screen background object-cover bg-no-repeat">
+        <img id="secondLayer1" src="../assets/svg/comets.svg" class="object-contain absolute top-24 left-1/4 w-auto h-24">
+        <img id="secondLayer2" src="../assets/svg/moon_rocks.svg" class="object-contain w-auto bottom-10 left-1/3 absolute h-64">
+        <img src="../assets/svg/planet.svg" class="animate-ping delay-500 transition object-contain w-auto h-80 absolute left-24 top-1/4">
+        <img id="secondLayer3" src="../assets/svg/planet.svg" class="object-contain w-auto h-80 absolute left-24 top-1/4">
+        <img id="secondLayer4" src="../assets/svg/planet2.svg" class="object-contain w-auto h-64 right-56 top-1/4 absolute">
+        <img id="secondLayer5" src="../assets/svg/planet3.svg" class="object-contain w-auto h-56 bottom-10 right-7 absolute">
+        <img id="secondLayer6" src="../assets/svg/rocket.svg" class="object-contain w-auto h-24 left-1/3 top-1/3 absolute">
+        <img id="secondLayer7" src="../assets/svg/sat.svg" class="object-contain w-auto h-10 right-44 top-28 absolute">
+        <img id="secondLayer8" src="../assets/svg/sat2.svg" class="object-contain w-auto h-20 left-24 bottom-32 absolute">
     </div>
 </template>
 
@@ -66,7 +67,7 @@ export default defineComponent({
                 this.transformElement(this.secondLayer7, position);
                 this.transformElement(this.secondLayer8, position);
             });
-        }
+        },
     },
     mounted() {
         this.mouseOverContainer = document.getElementById('mouseLayer');

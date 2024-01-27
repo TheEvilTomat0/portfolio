@@ -1,16 +1,34 @@
 <template>
     <div class="text-9xl font-bold m-5">Development</div>
-    <modal ref="modal"/>
+    <div v-for="(item, index) in this.content" :key="index">
+        <content-block :content="item" :index="index"/>
+    </div>
 </template>
 
 <script>
-import modal from '../components/modal.vue'
+import contentBlock from '../components/contentBlock.vue';
+import content from '../assets/content.json';
+import Modal from '../components/modal.vue';
+
 export default {
-    methods: {
-        openModal(){
-            this.$refs.modal.openModal();
-        }
-    },
-    components: { modal },
+  data () {
+    return {
+      content: {}
+    }
+  },
+
+  components: { contentBlock, Modal },
+
+  methods: {
+    getContent(){
+      const filteredContent = content.content.filter(item => item.tags.includes('development'));
+      
+      this.content = filteredContent;
+    }
+  },
+
+  mounted(){
+    this.getContent();
+  }
 }
 </script>
