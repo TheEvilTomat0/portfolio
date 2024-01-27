@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col justify-center items-center">
         <div v-if="this.checkOddIndex(this.index)" class="flex gap-5 my-7">
-            <img class="w-52 h-52 object-cover rounded-lg" :src="this.content.img">
+            <img class="w-52 h-52 object-cover rounded-lg" :src="this.importAsset(this.content.img)">
             <div class="flex flex-col">
                 <div class="text-2xl font-bold">{{ this.content.title }}</div>
                 <div class="text-lg font-thin italic">{{ this.content.subtitle }}</div>
@@ -36,6 +36,13 @@ export default {
         },
         openModal(content){
             this.$refs.modal.openModal(content);
+        },
+        importAsset(path){
+            const img = path.replace('/src/', '../');
+            console.log(img)
+            import(img).then((image) => {
+                return image;
+            });
         }
     },
     props: {

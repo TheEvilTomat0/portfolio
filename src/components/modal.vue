@@ -4,7 +4,7 @@
 
     <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
         <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
-        <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+        <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 w-full max-w-3xl">
             <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start">
                 <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
@@ -14,7 +14,12 @@
                 </div>
                 <div class="mt-3">
                     <h2 class="italic font-bold text-lg">Reflectie</h2>
-                    <p class="text-base text-gray-500">{{ this.content.reflectie }}</p>
+                    <p class="text-base text-gray-500">{{ this.content.reflection }}</p>
+                </div>
+                <div class="flex mt-4">
+                    <div v-for="(item, index) in content.links" :key="index">
+                        <a :href="item" target="_blank" class="bg-blue-600 text-white px-3 py-2 text-base rounded-lg mr-2">{{ this.checkLink(item) }}</a>
+                    </div>
                 </div>
                 </div>
             </div>
@@ -49,6 +54,21 @@ export default {
         },
         closeModal(){
             this.open = false;
+        },
+        checkLink(link){
+            console.log(link);
+            if(link.includes('dribbble')) {
+                return 'Dribbble link';
+            } else if(link.includes('figma')) {
+                return 'Figma link';
+            } else if(link.includes('hera')) {
+                return 'Website link';
+            } else if(link.includes('git')) {
+                return 'Gitlab link';
+            } else if(link.includes('forms')) {
+                return 'Onderzoek link';
+            }
+
         }
     },
 }

@@ -44,8 +44,8 @@
             "subtitle": "Sign up",
             "img": "/src/assets/img/dailyui/dailyui001.png",
             "description": "Maak een aanmeldpagina, modaal venster, formulier of app-scherm gerelateerd aan het aanmelden voor iets. Het kan zijn voor een vrijwilligersevenement, inschrijving voor een wedstrijd, een weggeefactie, of alles wat je je kunt voorstellen.",
-            "tags": ["design"],
-            "link": "https://dribbble.com/shots/22562957-DailyUI-001",
+            "tags": ["design", "professional identity"],
+            "links": ["https://dribbble.com/shots/22562957-DailyUI-001"],
             "info": "DailyUI is een ontwerpuitdaging waarbij je elke dag een opdracht krijgt en iets moet ontwerpen op basis van die opdracht.",
             "reflection": "Ik vond het leuk om een registratie pagina te maken, het was weer even geleden dat ik er een had gemaakt. Het is leuk dat je met DailyUI veel verschillende opdrachten krijgt die je uit kunnen dagen."
         },
@@ -53,9 +53,9 @@
             "title": "DailyUI 002",
             "subtitle": "Credit Card Checkout",
             "img": "/src/assets/img/dailyui/dailyui002.png",
-            "description": "Design a credit card checkout form or page. Don't forget the important elements such as the numbers, dates, security numbers, etc",
-            "tags": ["design"],
-            "link": "https://dribbble.com/shots/23526427-DailyUI-002",
+            "description": "Ontwerp een creditcard-afrekenformulier of -pagina. Vergeet niet de belangrijke elementen zoals de nummers, datums, beveiligingsnummers, enzovoort.",
+            "tags": ["design", "professional identity"],
+            "links": ["https://dribbble.com/shots/23526427-DailyUI-002"],
             "info": "DailyUI is a design challenge where you get a prompt every day and you have to design something based on that prompt. I'm doing this challenge to improve my design skills.",
             "reflection": "Ik vond het leuk om een checkout / shopping-cart pagina te maken. Ik heb geprobeert zo overzichtelijk mogelijk te maken zodat je snel kunt wat je hebt besteld en hoe je kunt betalen."
         },
@@ -63,39 +63,39 @@
             "title": "TICT.IO",
             "subtitle": "Research and concept",
             "img": "/src/assets/img/icon.png",
-            "description": "De Technology Impact Cycle Tool helpt met het inschatten van nieuwe technologiën. Op het moment wordt er wel gebruik van gemaakt maar wil het nog niet echt op gang komen. De opdracht is daarom ook om te kijken wat verbeterd kan worden aan de huidige tool.",
-            "tags": ["interactive media", "design", "research", "communication"],
-            "link": ["https://www.figma.com/file/birGFgJjL4aSRsQdy87Iba/Idee%C3%ABn-bord?type=whiteboard&node-id=0%3A1&t=rxyUG4nvUflTSV3h-1", "https://www.figma.com/file/SIdVlZO50ielOjQFmS4Zj4/Website-design?type=design&node-id=0%3A1&mode=design&t=GfCRB9fdF7KSQN7o-1"],
-            "info": "In deze fase heb ik onderzoek gedaan naar de huidige tool en wat er verbeterd kan worden. Dit heb ik in een Figma bord gezet zodat ik een goed overzicht krijg van wat er allemaal mogelijk is. Verder zijn hebben we besloten één deel van de tool aan te pakken. Hiervoor heb ik ook een design gemaakt die in mijn ogen duidelijker en overzichtelijker is.",
-            "reflection": ""
+            "description": "De Technology Impact Cycle Tool helpt met het inschatten van nieuwe technologieën. Op het moment wordt er wel gebruik van gemaakt maar wil het nog niet echt op gang komen. De opdracht is daarom ook om te kijken wat verbeterd kan worden aan de huidige tool.",
+            "tags": ["interactive media", "design", "research", "communication", "professional identity"],
+            "links": ["https://www.figma.com/file/birGFgJjL4aSRsQdy87Iba/Idee%C3%ABn-bord?type=whiteboard&node-id=0%3A1&t=rxyUG4nvUflTSV3h-1", "https://www.figma.com/file/SIdVlZO50ielOjQFmS4Zj4/Website-design?type=design&node-id=0%3A1&mode=design&t=GfCRB9fdF7KSQN7o-1"],
+            "info": "In deze fase heb ik onderzoek gedaan naar de huidige tool en wat er verbeterd kan worden. Dit heb ik in een Figma bord gezet zodat ik een goed overzicht krijg van wat er allemaal mogelijk is. Verder zijn hebben we besloten één deel van de tool aan te pakken. Hiervoor heb ik ook een design gemaakt die in mijn ogen duidelijker en overzichtelijker is. Ik heb me voornamelijk bezig gehouden met de navigatie structuur binnen de tool en het aanmaken van een nieuwe technologie.",
+            "reflection": "Het vooronderzoek doen voor de TICT tool vond ik erg leuk. Tijdens het analyseren van de website kwam ik al een paar dingen tegen die niet echt gebruikers vriendelijk waren. Dit heb ik geprobeert te verbeteren en terug te laten komen in mijn design."
         },
         {
             "title": "TICT.IO",
             "subtitle": "Final product",
-            "img": "",
-            "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! For designers, problem solvers, policy makers, journalists, parents & all other people.",
-            "tags": ["design", "development"],
-            "link": "http://i425444.hera.fhict.nl/",
-            "info": "This is the final product of the project. We've made a new version of the quick scan. The link also includes the source code of our git repository.",
-            "reflection": ""
+            "img": "/src/assets/img/tict_final.png",
+            "description": "De Technology Impact Cycle Tool helpt met het inschatten van nieuwe technologieën. Op het moment wordt er wel gebruik van gemaakt maar wil het nog niet echt op gang komen. De opdracht is daarom ook om te kijken wat verbeterd kan worden aan de huidige tool.",
+            "tags": ["design", "development", "professional identity"],
+            "links": ["http://i425444.hera.fhict.nl/", "https://git.fhict.nl/I425444/tict.io-project"],
+            "info": "Dit is het eindproduct van de TICT tool. Ik heb me voornamelijk bezig gehouden met de navigatie structuur binnen de tool en de pop-up met vragen. Verder heb ik alle onderdelen van het project bij elkaar gegoten tot één werkend geheel.",
+            "reflection": "Ik vond het een leuk project om aan te werken. Het was een uitdaging om alle onderdelen van het project bij elkaar te voegen en er één werkend geheel van te maken."
         },
         {
             "title": "TICT.IO",
             "subtitle": "Review and reflection",
-            "img": "",
-            "description": "The Technology Impact Cycle Tool helps you to estimate the impact of (new) technology! For designers, problem solvers, policy makers, journalists, parents & all other people.",
-            "tags": ["research", "communication"],
-            "link": "",
-            "info": "We've asked a handfull of people to test our prototype and give us feedback.",
-            "reflection": ""
+            "img": "/src/assets/img/tict_onderzoek.png",
+            "description": "De Technology Impact Cycle Tool helpt met het inschatten van nieuwe technologieën. Op het moment wordt er wel gebruik van gemaakt maar wil het nog niet echt op gang komen. De opdracht is daarom ook om te kijken wat verbeterd kan worden aan de huidige tool.",
+            "tags": ["research", "communication", "professional identity"],
+            "links": ["https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=hSGVAdtZgn9i3mVNUJYQ2pJdV6bSopTX&id=ZWdrxpS3K0qE7YRbNBwIanrH798E0mdMjpwcd4wJmqhUNU8xRUw5NUdVQ1ZGRlA0VE9ZRklBWEs1Ty4u"],
+            "info": "Ik heb mee geholpen met het onderzoek naar de TICT tool. Dit heb ik gedaan door middel van een enquête. De enquête is gemaakt om erachter te komen wat de gebruikers van de tool vinden en wat ze van de veranderingen vinden.",
+            "reflection": "Ik heb geleerd dat onderzoek doen toch best lastig kan zijn. Je moet goed nadenken over de vragen die je stelt en hoe je ze stelt. Verder vond ik het leuk om te zien wat de gebruikers van de tool vinden en wat ze van de veranderingen vinden."
         },
         {
             "title": "Inspiratie",
             "subtitle": "",
             "img": "",
             "description": "",
-            "tags": [],
-            "link": "",
+            "tags": ["research", "professional identity"],
+            "links": [],
             "info": "",
             "reflection": ""
         }
