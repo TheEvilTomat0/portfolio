@@ -10,9 +10,9 @@
             <div class="text-2xl my-2">
                 {{ item.research }}
             </div>
-            <div class="flex mt-2 mb-6">
+            <div class="flex mb-6">
                 <div v-for="(link, index) in item.researchlinks" :key="index">
-                    <a :href="link" target="_blank" class="bg-blue-600 text-white px-3 py-2 text-base rounded-lg mr-2">{{ this.checkLink(link) }}</a>
+                    <a :href="link" target="_blank" class="mr-4 w-36 inline-block px-6 py-2 mt-2 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">{{ this.checkLink(link) }}</a>
                 </div>
             </div>
 
@@ -20,9 +20,9 @@
             <div class="text-2xl my-2">
                 {{ item.design }}
             </div>
-            <div class="flex mt-2 mb-6">
+            <div class="flex mb-6">
                 <div v-for="(link, index) in item.designlinks" :key="index">
-                    <a :href="link" target="_blank" class="bg-blue-600 text-white px-3 py-2 text-base rounded-lg mr-2">{{ this.checkLink(link) }}</a>
+                    <a :href="link" target="_blank" class="mr-4 w-36 inline-block px-6 py-2 mt-2 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">{{ this.checkLink(link) }}</a>
                 </div>
             </div>
 
@@ -30,9 +30,9 @@
             <div class="text-2xl my-2">
                 {{ item.development }}
             </div>
-            <div class="flex mt-2 mb-6">
+            <div class="flex mb-6">
                 <div v-for="(link, index) in item.developmentlinks" :key="index">
-                    <a :href="link" target="_blank" class="bg-blue-600 text-white px-3 py-2 text-base rounded-lg mr-2">{{ this.checkLink(link) }}</a>
+                    <a :href="link" target="_blank" class="mr-4 w-36 inline-block px-6 py-2 mt-2 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">{{ this.checkLink(link) }}</a>
                 </div>
             </div>
 
@@ -40,9 +40,9 @@
             <div class="text-2xl my-2">
                 {{ item.test }}
             </div>
-            <div class="flex mt-2 mb-6">
+            <div class="flex mb-6">
                 <div v-for="(link, index) in item.testlinks" :key="index">
-                    <a :href="link" target="_blank" class="bg-blue-600 text-white px-3 py-2 text-base rounded-lg mr-2">{{ this.checkLink(link) }}</a>
+                    <a :href="link" target="_blank" class="mr-4 w-36 inline-block px-6 py-2 mt-2 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">{{ this.checkLink(link) }}</a>
                 </div>
             </div>
 
@@ -81,6 +81,10 @@ export default {
                 return 'Gitlab link';
             } else if(link.includes('forms')) {
                 return 'Onderzoek link';
+            } else if(link.includes('app')) {
+                return 'App link';
+            } else {
+                return 'Link';
             }
 
         }

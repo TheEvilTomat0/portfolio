@@ -62,7 +62,7 @@
         {
             "title": "TICT.IO",
             "subtitle": "Research and concept",
-            "img": "/src/assets/img/icon.png",
+            "img": "/src/assets/img/tict_icon.png",
             "description": "De Technology Impact Cycle Tool helpt met het inschatten van nieuwe technologieën. Op het moment wordt er wel gebruik van gemaakt maar wil het nog niet echt op gang komen. De opdracht is daarom ook om te kijken wat verbeterd kan worden aan de huidige tool.",
             "tags": ["interactive media", "design", "research", "communication", "professional identity"],
             "links": ["https://www.figma.com/file/birGFgJjL4aSRsQdy87Iba/Idee%C3%ABn-bord?type=whiteboard&node-id=0%3A1&t=rxyUG4nvUflTSV3h-1", "https://www.figma.com/file/SIdVlZO50ielOjQFmS4Zj4/Website-design?type=design&node-id=0%3A1&mode=design&t=GfCRB9fdF7KSQN7o-1"],
@@ -90,14 +90,44 @@
             "reflection": "Ik heb geleerd dat onderzoek doen toch best lastig kan zijn. Je moet goed nadenken over de vragen die je stelt en hoe je ze stelt. Verder vond ik het leuk om te zien wat de gebruikers van de tool vinden en wat ze van de veranderingen vinden."
         },
         {
-            "title": "Inspiratie",
-            "subtitle": "Professional Identity",
-            "img": "",
-            "description": "Wie ben ik? Zoek naar inspirerende portfolio's en analyseer welke identiteiten je vindt.",
+            "title": "Feather Quest",
+            "subtitle": "Research",
+            "img": "/src/assets/img/feather_icon.png",
+            "description": "Feather Quest wordt een social media platform voor vogelaars en natuur fotograven. Er zijn al wel apps op de markt waarin je een logboek kunt bij houden of een vogel kunt herkennen, echter zijn deze apps vaak ingericht specifiek voor die functionaliteit. Met Feather Quest wil ik al die functies op één plek brengen. Van een logboek bijhouden tot zeldzamen vogels in de buurt traceren, Feather Quest moet de go to app worden voor vogelaars.",
             "tags": ["research", "professional identity"],
-            "links": ["https://portfolio.codeonmedia.nl/Inspiratie.pdf"],
-            "info": "Tijdens deze opdracht ben ik opzoek gegaan naar websites die ik aantrekkelijk vind. Hier heb ik een pdf van gemaakt en erbij geschreven waarom ik ze mooi vind en waarom niet.",
-            "reflection": "Ik kwam erachter dat het soms best lastig kan zijn om uit te leggen waarom je een website mooi vind. Verder vond ik het leuk om veel verschillende websites te bekijken en te analyseren."
+            "links": ["https://waarneming.nl/", "https://merlin.allaboutbirds.org/", "https://www.vogelbescherming.nl/ontdek-vogels/kennis-over-vogels/vogelgids"],
+            "info": "Er zijn veel verschillende apps voor vogelaars, maar al deze apps zijn vaak ingericht op één specifieke functie. Je hebt bijvoorbeeld waarneming.nl waar je waarnemingen kan toevoegen en deze vervolgens kan bekijken. Dit is handig om te zien wat er zoal in de buurt zit, hier mis je alleen het sociale aspect. Dat je dus geen vrienden kan toevoegen. Met de app Merlin kun je geluiden van vogels herkennen, ook kun je met deze app foto’s van vogels herkennen. De vogelbescherming heeft zelf een vogelgids online waar je snel informatie kunt vinden over bepaalde vogels.",
+            "reflection": "Ik vond het leuk om onderzoek te doen naar de verschillende apps die er al zijn voor vogelaars. Ik heb hierdoor een goed beeld gekregen van wat er al is en wat er nog mist. Verder vond ik het leuk om te kijken wat er allemaal mogelijk is met de verschillende API's."
+        },
+        {
+            "title": "Feather Quest",
+            "subtitle": "Design",
+            "img": "/src/assets/img/feather_icon.png",
+            "description": "Feather Quest wordt een social media platform voor vogelaars en natuur fotograven. Er zijn al wel apps op de markt waarin je een logboek kunt bij houden of een vogel kunt herkennen, echter zijn deze apps vaak ingericht specifiek voor die functionaliteit. Met Feather Quest wil ik al die functies op één plek brengen. Van een logboek bijhouden tot zeldzamen vogels in de buurt traceren, Feather Quest moet de go to app worden voor vogelaars.",
+            "tags": ["interactive media", "design", "professional identity"],
+            "links": ["https://www.figma.com/file/RZg4odoSEWPWiM1eB84Kb1/Feather-Quest?type=design&node-id=0%3A1&mode=design&t=RiX5mcuf2zVIBf67-1"],
+            "info": "Toen ik begon met het design voor de app had ik eerst een logo gemaakt, het logo bestaat uit een veer wat op een kompas ligt. Verder heb ik geprobeerd een duidelijk en aantrekkelijk ontwerp te maken. Dit ontwerp is gemaakt voor de eerste versie van de app.",
+            "reflection": "Ik vond het leuk om een logo te maken voor de app. Verder vond ik het leuk om een duidelijk en aantrekkelijk ontwerp te maken."
+        },
+        {
+            "title": "Feather Quest",
+            "subtitle": "Development",
+            "img": "/src/assets/img/feather_icon.png",
+            "description": "Feather Quest wordt een social media platform voor vogelaars en natuur fotograven. Er zijn al wel apps op de markt waarin je een logboek kunt bij houden of een vogel kunt herkennen, echter zijn deze apps vaak ingericht specifiek voor die functionaliteit. Met Feather Quest wil ik al die functies op één plek brengen. Van een logboek bijhouden tot zeldzamen vogels in de buurt traceren, Feather Quest moet de go to app worden voor vogelaars.",
+            "tags": ["interactive media", "development", "professional identity"],
+            "links": ["https://app.featherquest.nl/", "https://git.fhict.nl/I425444/feather-quest", "https://git.fhict.nl/I425444/feather-quest-backend"],
+            "info": "Tijdens de lessen van Maikel hebben we het gehad over een PWA. Dit vond ik interessant en wilde dit ook gebruiken voor mijn app. De app is gemaakt met het Vuejs framework en werkt samen met een Laravel backend. Verder gebruik ik Tailwindcss als mijn css framework.",
+            "reflection": "Ik vond het leuk om een PWA te maken. Verder vond ik het leuk om met een nieuw framework te werken."
+        },
+        {
+            "title": "Feather Quest",
+            "subtitle": "User testing",
+            "img": "/src/assets/img/feather_icon.png",
+            "description": "Feather Quest wordt een social media platform voor vogelaars en natuur fotograven. Er zijn al wel apps op de markt waarin je een logboek kunt bij houden of een vogel kunt herkennen, echter zijn deze apps vaak ingericht specifiek voor die functionaliteit. Met Feather Quest wil ik al die functies op één plek brengen. Van een logboek bijhouden tot zeldzamen vogels in de buurt traceren, Feather Quest moet de go to app worden voor vogelaars.",
+            "tags": ["research", "communication", "professional identity"],
+            "links": ["https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=S7SI5EgjNPH3HzQxCRV3SA8Yi1OOPLbc&id=ZWdrxpS3K0qE7YRbNBwIamBe1KT4_fpPvdsq1KKBZ2BUQ0dXUUE0SE5FSEtMMDA2OEw2V1FWVDdNNi4u"],
+            "info": "Ik heb voor het testen van de applicatie mensen gevraagd een aantal opdrachten uit te voeren en hun mening hier over te geven. Zo kreeg ik een goed beeld of het duidelijk is hoe de app werkt en of mijn functionaliteiten die in de app zitten ook naar behoren werken. Verder heb ik feedback gevraagd over wat ze nog meer in de app willen zien.",
+            "reflection": "Ik vond het leuk om te zien hoe mensen de app gebruiken en wat ze er van vinden. Verder vond ik het leuk om te zien wat voor feedback ze gaven en wat ik hier mee kon doen."
         }
     ],
 
@@ -114,6 +144,20 @@
             "test": "Ik heb mee geholpen met het onderzoek naar de TICT tool. Dit heb ik gedaan door middel van een enquête. De enquête is gemaakt om erachter te komen wat de gebruikers van de tool vinden en wat ze van de veranderingen vinden.",
             "testlinks": ["https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=hSGVAdtZgn9i3mVNUJYQ2pJdV6bSopTX&id=ZWdrxpS3K0qE7YRbNBwIanrH798E0mdMjpwcd4wJmqhUNU8xRUw5NUdVQ1ZGRlA0VE9ZRklBWEs1Ty4u"],
             "reflection": "Het vooronderzoek voor de TICT-tool was een boeiende ervaring. Tijdens het analyseren van de website ontdekte ik enkele aspecten die niet echt gebruiksvriendelijk waren. Ik heb me ingezet om deze punten te verbeteren en ze vervolgens geïntegreerd in mijn ontwerp. Het project op zich was zeer plezierig om aan te werken. Het bleek een uitdaging om alle componenten van het project harmonieus samen te voegen en tot een goed functionerend geheel te maken. Dit proces heeft me geleerd dat onderzoek doen soms complex kan zijn. Het vereist zorgvuldige overweging van de vragen die gesteld worden en de manier waarop ze worden geformuleerd. Bovendien vond ik het fascinerend om de reacties van de toolgebruikers op de veranderingen te observeren en te ontdekken hoe zij de aanpassingen waardeerden.",
+            "tags": ["interactive media", "design", "development", "research", "communication", "professional identity"]
+        },
+        {
+            "title": "Feather Quest",
+            "why": "Feather Quest wordt een social media platform voor vogelaars en natuur fotograven. Er zijn al wel apps op de markt waarin je een logboek kunt bij houden of een vogel kunt herkennen, echter zijn deze apps vaak ingericht specifiek voor die functionaliteit. Met Feather Quest wil ik al die functies op één plek brengen. Van een logboek bijhouden tot zeldzamen vogels in de buurt traceren, Feather Quest moet de go to app worden voor vogelaars.",
+            "research": "Er zijn veel verschillende apps voor vogelaars, maar al deze apps zijn vaak ingericht op één specifieke functie. Je hebt bijvoorbeeld waarneming.nl waar je waarnemingen kan toevoegen en deze vervolgens kan bekijken. Dit is handig om te zien wat er zoal in de buurt zit, hier mis je alleen het sociale aspect. Dat je dus geen vrienden kan toevoegen. Met de app Merlin kun je geluiden van vogels herkennen, ook kun je met deze app foto’s van vogels herkennen. De vogelbescherming heeft zelf een vogelgids online waar je snel informatie kunt vinden over bepaalde vogels.",
+            "researchlinks": ["https://waarneming.nl/", "https://merlin.allaboutbirds.org/", "https://www.vogelbescherming.nl/ontdek-vogels/kennis-over-vogels/vogelgids"],
+            "design": "Toen ik begon met het design voor de app had ik eerst een logo gemaakt, het logo bestaat uit een veer wat op een kompas ligt. Verder heb ik geprobeerd een duidelijk en aantrekkelijk ontwerp te maken. Dit ontwerp is gemaakt voor de eerste versie van de app.",
+            "designlinks": ["https://www.figma.com/file/RZg4odoSEWPWiM1eB84Kb1/Feather-Quest?type=design&node-id=0%3A1&mode=design&t=RiX5mcuf2zVIBf67-1"],
+            "development": "Tijdens de lessen van Maikel hebben we het gehad over een PWA. Dit vond ik interessant en wilde dit ook gebruiken voor mijn app. De app is gemaakt met het Vuejs framework en werkt samen met een Laravel backend. Verder gebruik ik Tailwindcss als mijn css framework.",
+            "developmentlinks": ["https://app.featherquest.nl/", "https://git.fhict.nl/I425444/feather-quest", "https://git.fhict.nl/I425444/feather-quest-backend"],
+            "test": "Ik heb voor het testen van de applicatie mensen gevraagd een aantal opdrachten uit te voeren en hun mening hier over te geven. Zo kreeg ik een goed beeld of het duidelijk is hoe de app werkt en of mijn functionaliteiten die in de app zitten ook naar behoren werken. Verder heb ik feedback gevraagd over wat ze nog meer in de app willen zien.",
+            "testlinks": ["https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=S7SI5EgjNPH3HzQxCRV3SA8Yi1OOPLbc&id=ZWdrxpS3K0qE7YRbNBwIamBe1KT4_fpPvdsq1KKBZ2BUQ0dXUUE0SE5FSEtMMDA2OEw2V1FWVDdNNi4u"],
+            "reflection": "Ik vond het leuk om een individueel project te doen. Dit idee had ik al een tijdje in me hoofd en vond het fijn dat ik de ruimte kreeg dit uit te voeren. Ik vond het vooral interessant dat ik nieuwe dingen kon uitproberen die ik nog niet eerder had gedaan zoals een PWA. Voor de toekomst zit ik te kijken om capacitorjs te gebruiken om de app uiteindelijk ook in de Apple & App store te krijgen.",
             "tags": ["interactive media", "design", "development", "research", "communication", "professional identity"]
         }
     ]

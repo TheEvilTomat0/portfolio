@@ -68,6 +68,10 @@ export default {
                 return 'Gitlab link';
             } else if(link.includes('forms')) {
                 return 'Onderzoek link';
+            } else if(link.includes('app')) {
+                return 'App link';
+            } else {
+                return 'Link';
             }
 
         }
