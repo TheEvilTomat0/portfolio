@@ -9,6 +9,7 @@ import ResearchPage from './pages/ResearchPage.vue';
 import CommunicationPage from './pages/CommunicationPage.vue';
 import ProfessionalIdentityPage from './pages/ProfessionalIdentityPage.vue';
 import HomePage from './pages/HomePage.vue';
+import ProjectPage from './pages/ProjectPage.vue';
 
 const app = createApp(App);
 
@@ -49,6 +50,12 @@ const router = createRouter({
             path: '/professional-identity', 
             component: ProfessionalIdentityPage,
             name:  'professional-identity'
+        },
+        {
+            path: '/project',
+            component: ProjectPage,
+            name: 'project',
+            props: true
         },
     ]
 });

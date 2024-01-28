@@ -95,9 +95,26 @@
             "img": "",
             "description": "Wie ben ik? Zoek naar inspirerende portfolio's en analyseer welke identiteiten je vindt.",
             "tags": ["research", "professional identity"],
-            "links": ["https://portfolio.codeonmedia.nl/inspiratie.pdf"],
+            "links": ["https://portfolio.codeonmedia.nl/Inspiratie.pdf"],
             "info": "Tijdens deze opdracht ben ik opzoek gegaan naar websites die ik aantrekkelijk vind. Hier heb ik een pdf van gemaakt en erbij geschreven waarom ik ze mooi vind en waarom niet.",
             "reflection": "Ik kwam erachter dat het soms best lastig kan zijn om uit te leggen waarom je een website mooi vind. Verder vond ik het leuk om veel verschillende websites te bekijken en te analyseren."
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "TICT.IO",
+            "why": "De Technology Impact Cycle Tool helpt met het inschatten van nieuwe technologieën. Op het moment wordt er wel gebruik van gemaakt maar wil het nog niet echt op gang komen. De opdracht is daarom ook om te kijken wat verbeterd kan worden aan de huidige tool.",
+            "research": "In deze fase heb ik onderzoek gedaan naar de huidige tool en wat er verbeterd kan worden. Dit heb ik in een Figma bord gezet zodat ik een goed overzicht krijg van wat er allemaal mogelijk is. Verder zijn hebben we besloten één deel van de tool aan te pakken.",
+            "researchlinks": ["https://www.figma.com/file/birGFgJjL4aSRsQdy87Iba/Idee%C3%ABn-bord?type=whiteboard&node-id=0%3A1&t=rxyUG4nvUflTSV3h-1"],
+            "design": " Hiervoor heb ik ook een design gemaakt die in mijn ogen duidelijker en overzichtelijker is. Ik heb me voornamelijk bezig gehouden met de navigatie structuur binnen de tool en het aanmaken van een nieuwe technologie.",
+            "designlinks": ["https://www.figma.com/file/SIdVlZO50ielOjQFmS4Zj4/Website-design?type=design&node-id=0%3A1&mode=design&t=GfCRB9fdF7KSQN7o-1"],
+            "development": "Dit is het eindproduct van de TICT tool. Ik heb me voornamelijk bezig gehouden met de navigatie structuur binnen de tool en de pop-up met vragen. Verder heb ik alle onderdelen van het project bij elkaar gegoten tot één werkend geheel.",
+            "developmentlinks": ["http://i425444.hera.fhict.nl/", "https://git.fhict.nl/I425444/tict.io-project"],
+            "test": "Ik heb mee geholpen met het onderzoek naar de TICT tool. Dit heb ik gedaan door middel van een enquête. De enquête is gemaakt om erachter te komen wat de gebruikers van de tool vinden en wat ze van de veranderingen vinden.",
+            "testlinks": ["https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=hSGVAdtZgn9i3mVNUJYQ2pJdV6bSopTX&id=ZWdrxpS3K0qE7YRbNBwIanrH798E0mdMjpwcd4wJmqhUNU8xRUw5NUdVQ1ZGRlA0VE9ZRklBWEs1Ty4u"],
+            "reflection": "Het vooronderzoek voor de TICT-tool was een boeiende ervaring. Tijdens het analyseren van de website ontdekte ik enkele aspecten die niet echt gebruiksvriendelijk waren. Ik heb me ingezet om deze punten te verbeteren en ze vervolgens geïntegreerd in mijn ontwerp. Het project op zich was zeer plezierig om aan te werken. Het bleek een uitdaging om alle componenten van het project harmonieus samen te voegen en tot een goed functionerend geheel te maken. Dit proces heeft me geleerd dat onderzoek doen soms complex kan zijn. Het vereist zorgvuldige overweging van de vragen die gesteld worden en de manier waarop ze worden geformuleerd. Bovendien vond ik het fascinerend om de reacties van de toolgebruikers op de veranderingen te observeren en te ontdekken hoe zij de aanpassingen waardeerden.",
+            "tags": ["interactive media", "design", "development", "research", "communication", "professional identity"]
         }
     ]
 }

@@ -3,7 +3,7 @@
         <img id="secondLayer1" src="../assets/svg/comets.svg" class="object-contain absolute top-24 left-1/4 w-auto h-24">
         <img id="secondLayer2" src="../assets/svg/moon_rocks.svg" class="object-contain w-auto bottom-10 left-1/3 absolute h-64">
         <img src="../assets/svg/planet.svg" class="animate-ping delay-500 transition object-contain w-auto h-80 absolute left-24 top-1/4">
-        <img id="secondLayer3" src="../assets/svg/planet.svg" class="object-contain w-auto h-80 absolute left-24 top-1/4">
+        <img v-on:click="openProject('TICT')" id="secondLayer3" src="../assets/svg/planet.svg" class="object-contain w-auto h-80 absolute left-24 top-1/4">
         <img id="secondLayer4" src="../assets/svg/planet2.svg" class="object-contain w-auto h-64 right-56 top-1/4 absolute">
         <img id="secondLayer5" src="../assets/svg/planet3.svg" class="object-contain w-auto h-56 bottom-10 right-7 absolute">
         <img id="secondLayer6" src="../assets/svg/rocket.svg" class="object-contain w-auto h-24 left-1/3 top-1/3 absolute">
@@ -42,6 +42,10 @@ export default defineComponent({
 
         transformElement(el, xyEl) {
             el.style.transform  = this.transforms.apply(null, xyEl);
+        },
+
+        openProject(projectName) {
+            this.$router.push({ path:'/project', query: { projectName: projectName } });
         },
 
         onMouseMove(e) {
