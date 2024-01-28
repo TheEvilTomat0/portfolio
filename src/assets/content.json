@@ -131,6 +131,18 @@
         }
     ],
 
+    "overmij": {
+        "name": "Leon Schoonhoven",
+        "age": "29",
+        "city": "Eindhoven",
+        "education": "ICT & Media Fontys Hogeschool Eindhoven",
+        "work": "Full-stack developer bij Shazzoo",
+        "hobbys": ["Programmeren", "Vogelen", "Fotograferen", "Barbecueën op de Kamado", "Gamen", "Festivals bezoeken"],
+        "skills": ["HTML", "CSS", "Javascript", "PHP", "Laravel", "Vuejs", "Tailwindcss", "Figma", "Adobe CC"],
+        "about": "Mijn naam is Leon Schoonhoven, 29 jaar oud, en ik ben gevestigd in Eindhoven. Momenteel volg ik de opleiding ICT & Media Design aan de Fontys Hogeschool in Eindhoven. In mijn rol als full-stack developer bij Shazzoo combineer ik mijn passie voor technologie en creativiteit. Als enthousiaste en leergierige student zoek ik voortdurend naar nieuwe uitdagingen om mijn vaardigheden uit te breiden. Zowel als teamplayer als zelfstandige werker tracht ik het beste resultaat te behalen.",
+        "img": "/src/assets/img/leon.jpg"
+    },
+
     "projects": [
         {
             "title": "TICT.IO",

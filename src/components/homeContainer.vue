@@ -8,13 +8,16 @@
         <img v-on:click="openProject('Feather Quest')" id="secondLayer4" src="../assets/svg/planet2.svg" class="object-contain w-auto h-64 right-56 top-1/4 absolute">
         <img id="secondLayer5" src="../assets/svg/planet3.svg" class="object-contain w-auto h-56 bottom-10 right-7 absolute">
         <img id="secondLayer6" src="../assets/svg/rocket.svg" class="object-contain w-auto h-24 left-1/3 top-1/3 absolute">
+        <img v-on:click="openModal()" src="../assets/svg/rocket.svg" class="animate-ping delay-500 object-contain w-auto h-24 left-1/3 top-1/3 absolute">
         <img id="secondLayer7" src="../assets/svg/sat.svg" class="object-contain w-auto h-10 right-44 top-28 absolute">
         <img id="secondLayer8" src="../assets/svg/sat2.svg" class="object-contain w-auto h-20 left-24 bottom-32 absolute">
+        <modal ref="modalPerson"/>
     </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
+import modal from './modalPerson.vue';
 export default defineComponent({ 
     data() {
         return {
@@ -30,6 +33,7 @@ export default defineComponent({
             secondLayer8:{},
         }
     },
+    components: { modal },
     methods: {
         transforms(x, y, el) {
             let box = el.getBoundingClientRect();
@@ -43,6 +47,10 @@ export default defineComponent({
 
         transformElement(el, xyEl) {
             el.style.transform  = this.transforms.apply(null, xyEl);
+        },
+
+        openModal(){
+            this.$refs.modalPerson.openModal();
         },
 
         openProject(projectName) {
